@@ -1,0 +1,43 @@
+
+}
+h1{
+	
+	margin-left:20px;
+	color: navy;
+	font-family:serif;
+	text-align: center;
+}
+
+p{
+	text-align:center;
+	color:red;
+	font-family:monospace;
+	border:2px solid green;
+	border-radius: 5px
+}
+a:link {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active {
+	color: purple;
+	background-color: transparent;
+	text-decoration: none;
+}
+div {
+	background-image:url('images/24.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+.main {
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    background-color: #333;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.header {
+    background-color: blanchedalmond;
+    color: #333;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+img {
+    width: 150px;
+    border-radius: 200px;
+    margin: 50px 250px;
+}
+
+.cap {
+    color: blanchedalmond;
+    padding: 0px 30px;
+    margin: 0px 30px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    width: 160px;
+    border-radius: 20px;
+    margin: 30px 70px;
+    padding: 15px;
+    background-color: blanchedalmond;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+}

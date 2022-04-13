@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Sign Up Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #4c6ca0;
+        }
+        
+        span {
+            display: block;
+        }
+        
+        input {
+            display: inline-block;
+            height: 25px;
+            width: 210px;
+            border-radius: 5px;
+        }
+        
+        button {
+            border: none;
+            border-radius: 5px;
+            width: 212px;
+            margin-top: 20px;
+            background-color: seagreen;
+            cursor: pointer;
+        }
+        
+        button a {
+            color: white;
+        }
+        
+        button:hover {
+            background-color: mediumspringgreen;
+        }
+        
+        .forms {
+            margin-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+        
+        #form {
+            border-radius: 5px;
+            position: relative;
+            top: 20px;
+            left: 300px;
+            background-color: aliceblue;
+            width: 250px;
+            height: 420px;
+        }
+        
+        #form h2,
+        p {
+            text-align: center;
+        }
+        
+        #terms {
+            font-size: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+        
+        #p {
+            position: absolute;
+            top: 440px;
+            left: 305px;
+            margin: auto;
+            color: white;
+        }
+        
+        #p a {
+            color: mediumspringgreen;
+        }
+        
+        #p a:hover {
+            color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <h2>Sign Up</h2>
+        <p>It is free and only takes a minute</p>
+        <div>
+            <form>
+                <div class="forms">
+                    <label>First Name</label>
+                    <span><input type="text"></span>
+                </div>
+                <div class="forms">
+                    <label>Last Name</label>
+                    <span><input type="text"></span>
+                </div>
+                <div class="forms">
+                    <label>E-mail</label>
+                    <span><input type="email"></span>
+                </div>
+                <div class="forms">
+                    <label>Password</label>
+                    <span><input type="password"></span>
+                </div>
+                <div class="forms">
+                    <label>Confirm Password</label>
+                    <span><input type="password"></span>
+                    <button><a href="#">Sign Up</a></button>
+                    <p id="terms">By clicking the Sign Up button you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <p id="p">Already have an account?<a href="#">Login Here</a></p>
+</body>
+
+</html>

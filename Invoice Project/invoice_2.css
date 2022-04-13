@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+    color: white;
+}
+.main {
+	width: 70%;
+	height: 600px;
+	background-color: #333;
+	margin: auto;
+	border: 6px solid white;
+	border-radius: 10px;
+	margin-top: 25px;
+}
+.header {
+	background-color: rgb(61,64,166);
+	padding: 50px;
+	text-align: center;
+	border-radius: 4px;
+	color: white;
+	line-height: 2.0em;
+	margin-bottom: 30px;
+}
+.header h1 {
+	font-family: helvetica,sans-serif;
+}
+.header p {
+	font-size: 11px;
+}
+.section {
+	width: 90%;
+	margin: auto;
+}
+.main a {
+	text-decoration: none;
+	font-size: 9px;
+	margin-left: 15px;
+	color: #ddd
+}
+button {
+	width: 150px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #ccd9ff;
+}
+button:hover {
+	background-color: rgb(61,64,166);
+	border: 0.1px solid white;
+	cursor: pointer;
+}
+table {
+	margin-top: 15px;
+}
+table th {
+	font-size: 11px;
+	text-decoration: none;
+	text-align: left;
+	color: #ccc;
+}
+td,th {
+	width: 450px;
+	height: 30px;
+}
+.tdd {
+	text-align: right;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer1 {
+	font-size: 9px;
+	color: #ccc;
+	line-height: 2.7em;
+	float: left;
+}
+.footer2 {
+	font-size: 9px;
+	color: #ccc;
+	line-height: 2.7em;
+	float: right;
+}
+.footer2 p {
+	text-align: right;
+	font-size: 20px;
+	color: white;
+}
+.foot {
+	clear: both;
+	margin-top: 100px;
+	text-align: center;
+}
+.foot button {
+	width: 100%;
+	color: white;
+	background-color: rgb(61,64,166);
+}
+.foot button:hover {
+	background-color: #ccd9ff;
+	border: 0.1px solid white;
+	color: #333
+}
+.foot p {
+	margin-top: 25px;
+	font-size: 8px;
+}
